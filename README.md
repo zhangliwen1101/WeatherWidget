@@ -10,6 +10,14 @@ I、气象数据由[百度地图开放平台]((https://lbsyun.baidu.com/))修改
 
 II、`d0e51c8` 版本之后为[小程序云开发](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)版本，若未开通云开发功能，为不影响小程序正常运行，可以将版本号回退到 `git reset d0e51c8 --hard`，或，将云开发相关代码注释掉(包括：`app.js` 中的初始化、`index.js` 中获取 `message` 的代码)。若开通了云开发功能，可将相应代码部署到云上。
 
+## 截图
+<div >
+    <img src='https://raw.githubusercontent.com/zhangliwen1101/Images/master/img/weather1.png' style='width:300px;'>
+    <img src='https://raw.githubusercontent.com/zhangliwen1101/Images/master/img/weather2.png' style='width:300px;'>
+    <img src='https://raw.githubusercontent.com/zhangliwen1101/Images/master/img/weather3.png' style='width:300px;'>
+    <img src='https://raw.githubusercontent.com/zhangliwen1101/Images/master/img/weather4.png' style='width:300px;'>
+</div>
+
 ## 数据来源
 气象数据更换为了[和风天气](http://www.heweather.com/)，**使用的是个人开发者认证版**。
 
