@@ -1,0 +1,145 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20rpx;
+}
+.wrapper {
+  font-size: 0;
+  background: #fff;
+  padding: 30rpx;
+  position: relative;
+  height: 128rpx;
+  box-sizing: border-box;
+}
+.wrapper .search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.inner {
+  background: #f4f6f9;
+  font-size: 30rpx;
+  padding: 16rpx 0 16rpx 20rpx;
+  box-sizing: border-box;
+  border-radius: 8rpx;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.inner input {
+  background: #f4f6f9;
+  font-size: 30rpx;
+  height: 38rpx;
+  /* 覆盖默认样式 min-height */
+  min-height: 38rpx;
+  line-height: 38rpx;
+  width: 100%;
+  box-sizing: border-box;
+}
+.icon {
+  width: 28rpx;
+  height: 28rpx;
+  margin-right: 10rpx;
+}
+.cancel {
+  font-size: 30rpx;
+  display: inline-block;
+  color: #666;
+  width: 2.5em;
+  text-align: right;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.items .item {
+  border: 1rpx solid rgb(242, 242, 242);
+  background: #efefef;
+  border-radius: 10rpx;
+  padding: 8rpx 40rpx;
+  margin-right: 30rpx;
+  margin-bottom: 36rpx;
+}
+.top .title {
+  margin-bottom: 30rpx;
+}
+.top {
+  padding: 30rpx 96rpx 20rpx 30rpx;
+}
+.top,
+.bottom {
+  font-size: 32rpx;
+  color: #333;
+  background: #fff;
+}
+.hot {
+  background: #fff;
+  margin-top: 10rpx;
+  padding: 30rpx 30rpx 20rpx;
+}
+.hot .title {
+  font-size: 32rpx;
+}
+.hot .cities {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hot .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 60rpx;
+  background: #f4f6f9;
+  border-radius: 8rpx;
+  color: #333;
+  font-size: 28rpx;
+  margin-top: 20rpx;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+.hot .item .icon {
+  width: 24rpx;
+  height: 24rpx;
+  margin-right: 8rpx;
+}
+.hot .item.active {
+  background: #40a7e7;
+  color: #fff;
+}
+.hot .item:nth-child(3n+1) {
+  margin-left: 0;
+}
+.hot .item:nth-child(3n) {
+  margin-right: 0;
+}
+.bottom .key {
+  background: #f4f6f9;
+  height: 50rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 30rpx;
+}
+.bottom .values .value {
+  border-bottom: 1rpx solid #efefef;
+  height: 104rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 30rpx;
+}
+.bottom .values .value:last-child {
+  border-bottom: none;
+}
+.hover {
+  background: #f4f6f9;
+}
+.empty {
+  margin-top: 100rpx;
+  font-size: 30rpx;
+  text-align: center;
+  color: #666;
+}

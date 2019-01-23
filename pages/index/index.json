@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Weather Widget",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "heartbeat": "/components/heartbeat/heartbeat"
+  }
+}
