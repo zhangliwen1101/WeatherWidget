@@ -16,7 +16,6 @@ II、`d0e51c8` 版本之后为[小程序云开发](https://developers.weixin.qq.
 ## 运行前准备
 > * [注册微信小程序](https://mp.weixin.qq.com/wxopen/waregister?action=step1)，获取 `appid`，配置域名白名单(在小程序后台将使用到的 `API` 添加到域名白名单)；
 > * 注册[和风天气](http://www.heweather.com/)账号，获取 'key`；
-> * ~~在 `app.js` 中替换 `globalData` 中的 `ak` 为自己的 `ak`；~~
 > * 在 `app.js` 中替换 `globalData` 中的 `key` 为你的 `key`；
 > * Run and Enjoy!
 
