@@ -12,7 +12,9 @@ II、`d0e51c8` 版本之后为[小程序云开发](https://developers.weixin.qq.
 
 ## 截图
 <div >
-    <img src='https://raw.githubusercontent.com/zhangliwen1101/Images/master/img/weather1.png'       style='width:100px;height:300px;display:inline-block'>
+    <img src='https://raw.githubusercontent.com/zhangliwen1101/Images/master/img/weather1.png'       style='border:0;
+margin:0;padding:0;max-width:300px;width:expression(this.width>300?"300px":this.width);max-height:600px;
+height:expression(this.height>600?"590px":this.height);'>
     <img src='https://raw.githubusercontent.com/zhangliwen1101/Images/master/img/weather2.png' style='width:300px;'>
     <img src='https://raw.githubusercontent.com/zhangliwen1101/Images/master/img/weather3.png' style='width:300px;'>
     <img src='https://raw.githubusercontent.com/zhangliwen1101/Images/master/img/weather4.png' style='width:300px;'>
