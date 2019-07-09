@@ -29,8 +29,8 @@ II、`d0e51c8` 版本之后为[小程序云开发](https://developers.weixin.qq.
 
 ## 打赏
 如果您需要，随意打赏，截图，私聊我，给您私人定制~
-QQ:383755537
-WX:bjawenfd
+> * QQ:383755537
+> * WX:bjawenfd
 
 ### 支付宝
 
