@@ -142,11 +142,5 @@
     <button open-type='openSetting'></button>
   </view>
   <!-- 悬浮菜单 -->
-  <view class='menus' wx:if='{{!bcgImgAreaShow}}'>
-    <image src="/img/share_circle.png" animation="{{animationOne}}" class="menu"></image>
-    <button plain='true' open-type='share' animation="{{animationOne}}" class='menu share'></button>
-    <image src="/img/setting.png" animation="{{animationTwo}}" class="menu" catchtap="menuToSetting"></image>
-    <image src="/img/info.png" animation="{{animationFour}}" class="menu" catchtap="menuToAbout"></image>
-    <image src="/img/menu.png" animation="{{animationMain}}" class="menu main" catchtap="menuMain"></image>
-  </view>
+ 
 </view>
