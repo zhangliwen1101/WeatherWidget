@@ -63,67 +63,6 @@
         <view>{{cityDatas.now[item]}}</view>
       </view>
     </view>
-    <view class='hourly' wx:if='{{hourlyDatas.length}}'>
-      <view class='title'>24 小时逐 3 小时预报</view>
-      <view class='hours'>
-        <swiper style='height:360rpx;' indicator-dots="{{false}}" autoplay="{{false}}" circular="{{false}}" duration="300" next-margin="50rpx">
-          <block wx:for="{{hourlyDatas}}" wx:key="{{index}}">
-            <swiper-item>
-              <view class='hour'>
-                <view class='detail'>
-                  <view>温度(℃)</view>
-                  <view>{{item.tmp}}</view>
-                </view>
-                <view class='detail'>
-                  <view>天气</view>
-                  <view class='weather'>
-                    <text>{{item.cond_txt}}</text>
-                    <image mode='widthFix' src='{{weatherIconUrl}}{{item.cond_code}}.png'></image>
-                  </view>
-                </view>
-                <view class='detail'>
-                  <view>相对湿度(%)</view>
-                  <view>{{item.hum}}</view>
-                </view>
-                <view class='detail'>
-                  <view>露点温度(℃)</view>
-                  <view>{{item.dew}}</view>
-                </view>
-                <view class='detail'>
-                  <view>降水概率</view>
-                  <view>{{item.pop}}</view>
-                </view>
-                <view class='detail'>
-                  <view>风向</view>
-                  <view>{{item.wind_dir}}</view>
-                </view>
-                <view class='detail'>
-                  <view>风向角度(deg)</view>
-                  <view>{{item.wind_deg}}</view>
-                </view>
-                <view class='detail'>
-                  <view>风力(级)</view>
-                  <view>{{item.wind_sc}}</view>
-                </view>
-                <view class='detail'>
-                  <view>风速(mk/h)</view>
-                  <view>{{item.wind_spd}}</view>
-                </view>
-                <view class='detail'>
-                  <view>气压(mb)</view>
-                  <view>{{item.pres}}</view>
-                </view>
-                <view class='detail'>
-                  <view>云量</view>
-                  <view>{{item.cloud}}</view>
-                </view>
-              </view>
-              <view class='time'>{{item.time}}</view>
-            </swiper-item>
-          </block>
-        </swiper>
-      </view>
-    </view>
     <!-- <ad unit-id="adunit-785cc3f710cc3d4c"></ad> -->
     <view class='livingIndextitle' wx:if='{{!setting.hiddenIndex}}'>生活指数</view>
     <view class='livingIndex' wx:if='{{!setting.hiddenIndex}}'>
