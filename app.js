@@ -16,7 +16,7 @@ App({
     keepscreenon:false,
     systeminfo: {},
     isIPhoneX: false,
-    key: '258ee24a3e6a49edba770bae0f2af27c',
+    key: '',
     weatherIconUrl: 'https://cdn.heweather.com/cond_icon/',
     requestUrl: {
       weather: 'https://free-api.heweather.com/s6/weather',
