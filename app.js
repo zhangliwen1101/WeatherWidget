@@ -1,7 +1,7 @@
 App({
   onLaunch () {
     wx.cloud.init({
-      env: 'release-818bbf',
+      env: '',
       traceUser: true,
     })
     wx.getSystemInfo({
@@ -17,10 +17,10 @@ App({
     systeminfo: {},
     isIPhoneX: false,
     key: '',
-    weatherIconUrl: 'https://cdn.heweather.com/cond_icon/',
+    weatherIconUrl: '',
     requestUrl: {
-      weather: 'https://free-api.heweather.com/s6/weather',
-      hourly: 'https://free-api.heweather.com/s6/weather/hourly',
+      weather: '',
+      hourly: '',
     },
   },
 })
