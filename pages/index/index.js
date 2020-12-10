@@ -205,8 +205,8 @@ Page({
     })
     wx.getLocation({
       success: (res) => {
-        this.getWeather(`${res.latitude},${res.longitude}`)
-        this.getHourly(`${res.latitude},${res.longitude}`)
+        this.getWeather(``)
+        this.getHourly(``)
         callback && callback()
       },
       fail: (res) => {
@@ -216,7 +216,7 @@ Page({
   },
   getWeather (location) {
     wx.request({
-      url: `${globalData.requestUrl.weather}`,
+      url: ``,
       data: {
         location,
         key,
