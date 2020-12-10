@@ -34,7 +34,6 @@
           <view class='val'>{{cityDatas.basic.location || '定位中'}}</view>
           <!-- <image class='down' src='/img/down.png'></image> -->
         </view>
-        <text class='time' wx:if='{{cityDatas.updateTimeFormat}}'>{{cityDatas.updateTimeFormat}} 更新</text>
       </view>
       <view class='message'>{{message}}</view>
       <view class='temp num' decode='true'>{{cityDatas.now.tmp || '-'}}<text style='font-size:50rpx;position:relative;top:-20px;'>℃</text></view>
@@ -64,7 +63,6 @@
       </view>
     </view>
     <!-- <ad unit-id="adunit-785cc3f710cc3d4c"></ad> -->
-    <view class='livingIndextitle' wx:if='{{!setting.hiddenIndex}}'>生活指数</view>
     <view class='livingIndex' wx:if='{{!setting.hiddenIndex}}'>
       <view class='item' wx:for='{{cityDatas.lifestyle}}' wx:key='{{index}}'>
         <image class='icon' src='/img/lifestyle_{{item.type}}.png'></image>
@@ -80,6 +78,5 @@
     <image src='/img/unlock.png'></image>
     <button open-type='openSetting'></button>
   </view>
-  <!-- 悬浮菜单 -->
  
 </view>
