@@ -34,7 +34,7 @@ II、`d0e51c8` 版本之后为[小程序云开发](https://developers.weixin.qq.
 
 ### 支付宝
 
-<img src="https://gitee.com/lwzhang1101/images/raw/master/img/zhifubaoshou.png" width="300" /> <img src="https://gitee.com/lwzhang1101/images/raw/master/img/zhifubaohong.png" width="300" />
+<img src="https://gitee.com/lwzhang1101/images/raw/master/img/zhifubaoshou.png" width="300" /> 
 
 ### 微信
 
