@@ -1,7 +1,7 @@
 # WeatherWidget
 一款天气应用微信小程序
 <p align='center'>
-    <img src='https://raw.githubusercontent.com/zhangliwen1101/Images/master/img/weather.jpg'>
+    <img src='https://gitee.com/lwzhang1101/images/raw/master/img/weather.jpg'>
 </p>
 
 ## 说明
@@ -12,10 +12,10 @@ II、`d0e51c8` 版本之后为[小程序云开发](https://developers.weixin.qq.
 
 ## 截图
 <div >
-    <img src='https://raw.githubusercontent.com/zhangliwen1101/Images/master/img/weather1.png' style='max-width:100px!important;width:100px!important;'>
-    <img src='https://raw.githubusercontent.com/zhangliwen1101/Images/master/img/weather2.png' style='style='max-width:100px!important;width:100px!important;'>
-    <img src='https://raw.githubusercontent.com/zhangliwen1101/Images/master/img/weather3.png' style='style='max-width:100px!important;width:100px!important;'>
-    <img src='https://raw.githubusercontent.com/zhangliwen1101/Images/master/img/weather4.png' style='style='max-width:100px!important;width:100px!important;'>
+    <img src='https://gitee.com/lwzhang1101/images/raw/master/img/weather1.png' style='style='max-width:100px!important;width:100px!important;'>
+    <img src='https://gitee.com/lwzhang1101/images/raw/master/img/weather2.png' style='style='max-width:100px!important;width:100px!important;'>
+    <img src='https://gitee.com/lwzhang1101/images/raw/master/img/weather3.png' style='style='max-width:100px!important;width:100px!important;'>
+    <img src='https://gitee.com/lwzhang1101/images/raw/master/img/weather4.png' style='style='max-width:100px!important;width:100px!important;'>
 </div>
 
 ## 数据来源
@@ -34,11 +34,16 @@ II、`d0e51c8` 版本之后为[小程序云开发](https://developers.weixin.qq.
 
 ### 支付宝
 
-<img src="https://raw.githubusercontent.com/zhangliwen1101/Images/master/img/zhifubaoshou.png" width="300" /> <img src="https://raw.githubusercontent.com/zhangliwen1101/Images/master/img/zhifubaohong.png" width="300" />
+<img src="https://gitee.com/lwzhang1101/images/raw/master/img/zhifubaoshou.png" width="300" /> <img src="https://gitee.com/lwzhang1101/images/raw/master/img/zhifubaohong.png" width="300" />
 
 ### 微信
 
-<img src="https://raw.githubusercontent.com/zhangliwen1101/Images/master/img/weixinshou.png" width="300" />
+<img src="https://gitee.com/lwzhang1101/images/raw/master/img/weixinshou.png" width="300" />
+
+### 扫码关注，私信，拿完整源码：
+
+<img src="https://gitee.com/lwzhang1101/images/raw/master/img/manongyuanqu.jpg" width="300" />
+
 
 ## License
 
